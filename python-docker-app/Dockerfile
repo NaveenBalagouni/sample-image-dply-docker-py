@@ -1,4 +1,3 @@
-dockerfile_content = """
 # Use an official Python runtime as the base image
 FROM python:3.9-slim
 
@@ -19,7 +18,3 @@ EXPOSE 5000
 
 # Command to run the app
 CMD ["python", "app.py"]
-"""
-
-with open('Dockerfile', 'w') as dockerfile:
-    dockerfile.write(dockerfile_content)
