@@ -6,7 +6,7 @@ app = Flask(__name__)
 # Define the basic route
 @app.route('/')
 def hello_world():
-    return 'Hello, World! This is a basic Python API.'
+    return 'Hello, World!.'
 
 # Start the server
 if __name__ == '__main__':
