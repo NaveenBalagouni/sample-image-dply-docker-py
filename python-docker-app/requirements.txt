@@ -1,0 +1,6 @@
+requirements_txt_content = """
+Flask==2.0.1
+"""
+
+with open('requirements.txt', 'w') as requirements_file:
+    requirements_file.write(requirements_txt_content)
